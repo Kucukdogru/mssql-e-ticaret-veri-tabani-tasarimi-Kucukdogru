@@ -4,7 +4,7 @@ GO
 
 CREATE TABLE District(
 DistrictId int identity,
-CityId int,
+CityId tinyint,
 DistrictName nvarchar(50),
 
 Constraint pk_district_id PRIMARY KEY(DistrictId),
