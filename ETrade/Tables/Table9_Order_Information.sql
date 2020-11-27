@@ -12,4 +12,4 @@ Constraint pk_order_id PRIMARY KEY(OrderId),
 Constraint fk_order_product FOREIGN KEY(ProductId) REFERENCES Product(ProductId),
 Constraint fk_order_customer FOREIGN KEY(CustomerId) REFERENCES Customer(CustomerId)
 
-);
+)
