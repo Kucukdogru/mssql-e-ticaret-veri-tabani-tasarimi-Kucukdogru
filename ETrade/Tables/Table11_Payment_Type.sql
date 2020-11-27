@@ -7,4 +7,4 @@ PaymentTypeName nvarchar(50),
 
 Constraint pk_payment PRIMARY KEY(PaymentTypeId)
 
-);
+)
