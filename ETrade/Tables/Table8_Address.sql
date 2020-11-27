@@ -4,7 +4,7 @@ GO
 CREATE TABLE Address(
 AddressId int identity(50000,1),
 CustomerId int NOT NULL,
-CityId int NOT NULL,
+CityId tinyint NOT NULL,
 DistrictId int NULL,
 FullAddress nvarchar(MAX),
 
