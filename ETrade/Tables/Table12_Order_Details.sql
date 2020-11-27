@@ -13,4 +13,4 @@ Constraint fk_order_detail_order_id FOREIGN KEY(OrderId) REFERENCES Order_Inform
 Constraint fk_order_detail_status FOREIGN KEY(OrderStatusId) REFERENCES Order_Status(OrderStatusId),
 Constraint fk_order_detail_payment FOREIGN KEY(PaymentTypeId) REFERENCES Payment_Type(PaymentTypeId)
 
-);
+)
