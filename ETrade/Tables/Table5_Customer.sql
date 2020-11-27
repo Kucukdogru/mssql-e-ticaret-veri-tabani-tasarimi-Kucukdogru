@@ -18,4 +18,4 @@ UpdateDate date,
 Constraint pk_customer_id PRIMARY KEY(CustomerId),
 Constraint uq_email UNIQUE (Email)
 
-);
+)
