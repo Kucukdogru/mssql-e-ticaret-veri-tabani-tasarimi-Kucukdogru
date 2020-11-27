@@ -15,4 +15,4 @@ UpdateDate date,
 
 Constraint pk_product_id PRIMARY KEY(ProductId),
 Constraint fk_product_brand_id FOREIGN KEY(BrandId) REFERENCES Brand(BrandId)
-);
+)
